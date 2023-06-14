@@ -13,7 +13,7 @@ const Tab = ({tabs}) => {
         <ul>
        {
          tabs.map((tab)=>(
-             <li onClick={()=>handleClick(tab.content)}>{tab.title}</li>
+             <li onClick={()=>handleClick(tab.contents)}>{tab.titles}</li>
          ))
        }
        </ul>
